@@ -1,0 +1,19 @@
+Build.PL
+Changes
+lib/dbedia.pm
+MANIFEST			This list of files
+META.yml
+README
+t/00_compile.t
+t/01_dbedia.t
+t/dbedia/brandsModels.json.gz
+t/dbedia/info.txt
+t/distribution.t
+t/fixme.t
+t/perlcritic.t
+t/perlcriticrc
+t/perltidy.conf
+t/pod-coverage.t
+t/pod-spell.t
+t/pod.t
+SIGNATURE    Added here by Module::Build

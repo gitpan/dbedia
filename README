@@ -1,0 +1,64 @@
+NAME
+    dbedia - interface to dbedia.com
+
+SYNOPSIS
+        my $dbedia = dbedia->new( base_uri => 'http://dbedia.com/WURFL' );
+        my %brands = %{ $dbedia->get('brandsModels.json') };
+
+DESCRIPTION
+    This is an experiment.
+
+PROPERTIES
+        base_uri    (default 'http://dbedia.com/')
+        cache_ttl   (default 60*60)
+
+METHODS
+  new()
+
+    Object constructor.
+
+  get($path)
+
+    Get `$path' from dbedia by prepending `$self->base_uri'. Results are
+    cached for `$self->cache_ttl' seconds.
+
+  clear_cache
+
+    Clears the cache.
+
+AUTHOR
+    Jozef Kutej, `<jkutej at cpan.org>'
+
+BUGS
+    Please report any bugs or feature requests to `bug-dbedia at
+    rt.cpan.org', or through the web interface at
+    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=dbedia. I will be
+    notified, and then you'll automatically be notified of progress on your
+    bug as I make changes.
+
+SUPPORT
+    You can find documentation for this module with the perldoc command.
+
+        perldoc dbedia
+
+    You can also look for information at:
+
+    * RT: CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=dbedia
+
+    * AnnoCPAN: Annotated CPAN documentation
+        http://annocpan.org/dist/dbedia
+
+    * CPAN Ratings
+        http://cpanratings.perl.org/d/dbedia
+
+    * Search CPAN
+        http://search.cpan.org/dist/dbedia
+
+ACKNOWLEDGEMENTS
+COPYRIGHT & LICENSE
+    Copyright 2009 Jozef Kutej, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

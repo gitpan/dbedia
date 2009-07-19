@@ -1,0 +1,41 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 fa7e52f09f48296ba628ce2c880a0dcc567af69b Build.PL
+SHA1 5a9e0185495e5672c245dba86054c9425237a757 Changes
+SHA1 84a6e2f367ce0b9a0cc5724c3ad68aeaad573135 MANIFEST
+SHA1 3835573c16c82df39a389ef21bc5bba11a2bd55e META.yml
+SHA1 2d24336812451969bf2e9f9b6126d0e71a770578 README
+SHA1 e43eb5e06e450c299d0d748becd699b8624833fb lib/dbedia.pm
+SHA1 605f05a5336cc37a476bb10b218f5ad1a2bd340d t/00_compile.t
+SHA1 fd5d3cb465e168fb334aee7b1231d096e20ad4ed t/01_dbedia.t
+SHA1 c4fa689895ea7613c788677eceacb49d61cc628e t/dbedia/brandsModels.json.gz
+SHA1 275a3503b92ffb84f64ac7224c41d7c8bc3c7585 t/dbedia/info.txt
+SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/distribution.t
+SHA1 10c564e5ffe84748070827b350edbf3d6b832b20 t/fixme.t
+SHA1 a2e21cf1e971f44e9c285b9a44e0c2e1e448e2a7 t/perlcritic.t
+SHA1 1cdb4ee6ce8c6e4394ecdba0d94cee5b360c2f97 t/perlcriticrc
+SHA1 ef456f030158ac474dabd8300b048d7411465d3c t/perltidy.conf
+SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
+SHA1 127283b49756cae13dc05a49a0220c80132cb920 t/pod-spell.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkpbhfYACgkQC0OgUPgL2SegcgCgg/0glCQXQ8AfhxJx/Pj0mE+J
+5lsAoKgEMJ/0BEsRtknwVRI2xnX+ruiL
+=6hLI
+-----END PGP SIGNATURE-----
